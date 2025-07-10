@@ -4,7 +4,7 @@ export default [
         description: "Personal Info",
         content: {
             "name": "Vlad Olfir",
-            "title": "Web / Software Developer | Programmer Analyst",
+            "title": "Software Engineer / Web Developer",
             "phone": "(718) 781-3057",
             "email": "vlad.olfir@gmail.com"
         }
