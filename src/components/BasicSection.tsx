@@ -19,7 +19,7 @@ export default function BasicSection({ name, description, content }: BasicSectio
                             return (
                                 <li key={index}>
                                     <span>{item.skillName}:</span>
-                                    <span>AA {item.skills.join(', ')}</span>
+                                    <span>{item.skills.join(', ')}</span>
                                 </li>
                             );
                         } else {
