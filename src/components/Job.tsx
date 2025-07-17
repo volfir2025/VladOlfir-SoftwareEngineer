@@ -9,8 +9,16 @@ export default function Job({ content, showhr }: JobPropsType): JSX.Element {
     const description =
         content.description ?
             <ul>
-                {content.description.map((item, index) => {     
-                    return  <li key={index}>{item}</li>        
+                {content.description.map((item, index) => {
+                    if (item.substring(0, 4) === "[PL]") {                  
+                        return <li key={index}><i>Project Lead:</i> {item.substring(4)}</li>;
+                    }
+                    if (item.substring(0, 4) === "[L2]") { //Level 2:                 
+                        return <ul><li key={index}>{item.substring(4)}</li></ul>;
+                    }                 
+                    else { 
+                        return  <li key={index}>{item}</li>
+                        }
                 })}
             </ul> : null;
 
