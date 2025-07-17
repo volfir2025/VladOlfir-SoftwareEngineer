@@ -53,7 +53,7 @@ export type ProfessionalExperienceType = {
 
 export type EducationContentType = {
     institution: string
-    location: string
+    location?: string
     degree: string
 }
 
@@ -209,7 +209,7 @@ export default function Resume() {
                     <div className="basic-section">
                         <h2>{education.description}</h2>
                         <div>
-                            <span>{educationContentTyped.institution}, </span>
+                            <span>{educationContentTyped.institution}</span>
                             <span>{educationContentTyped.location}</span>
                         </div>
                         <p>{educationContentTyped.degree}</p>
