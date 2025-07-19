@@ -14,7 +14,7 @@ export default function Job({ content, showhr }: JobPropsType): JSX.Element {
                         return <li key={index}><i>Project Lead:</i> {item.substring(4)}</li>;
                     }
                     if (item.substring(0, 4) === "[L2]") { //Level 2:                 
-                        return <ul><li key={index}>{item.substring(4)}</li></ul>;
+                        return <ul key={index}><li>{item.substring(4)}</li></ul>;
                     }                 
                     else { 
                         return  <li key={index}>{item}</li>
