@@ -70,7 +70,7 @@ export default [
                 skillName: "IDE",
                 skills: [
                     "Visual Studio 2003 - 2022 (with GitHub Copilot & IntelliCode)",
-                    "Visual InterDev 6.0"
+                    "Figma"
                 ]
             },
             {
