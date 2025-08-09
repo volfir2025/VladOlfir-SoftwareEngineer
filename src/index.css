@@ -26,9 +26,9 @@ html, body {
     text-align: left;
 }
 
-    .basic-section.light-theme {
-        background: #fff;
-    }
+.basic-section.light-theme {
+    background: #fff;
+}
 
 body .light-theme {
     background-color: #ebf9f2;
@@ -54,25 +54,25 @@ fieldset {
     gap: 7%;
 }
 
-    fieldset.light-theme {
-        background: #faf9f6;
-    }
+fieldset.light-theme {
+    background: #faf9f6;
+}
 
-    /* Center the legend text */
-    fieldset legend {
-        text-align: center;
-        font-weight: 600;
-        margin-bottom: 0.5rem;
-    }
+/* Center the legend text */
+fieldset legend {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
 
-    /* Style and space the labels vertically */
-    fieldset label {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        margin: 0.25rem 0;
-        font-size: 1rem;
-    }
+/* Style and space the labels vertically */
+fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.25rem 0;
+    font-size: 1rem;
+}
 /* Responsive: 2 rows of 2 checkboxes on small screens */
 @media (max-width: 600px) {
     fieldset {
@@ -130,12 +130,12 @@ fieldset {
     margin-top: 1.5rem;
 }
 
-    .link-button:hover, .link-button:focus {
-        background-color: #16a34a;
-        box-shadow: 0 8px 24px 0 rgba(34, 197, 94, 0.32), 0 4px 12px 0 rgba(0,0,0,0.12);
-        transform: translateY(-2px) scale(1.03);
-        color: #fff;
-    }
+.link-button:hover, .link-button:focus {
+    background-color: #16a34a;
+    box-shadow: 0 8px 24px 0 rgba(34, 197, 94, 0.32), 0 4px 12px 0 rgba(0,0,0,0.12);
+    transform: translateY(-2px) scale(1.03);
+    color: #fff;
+}
 
 /*Resume:       */
 .resume-container {
@@ -149,17 +149,17 @@ fieldset {
     box-sizing: border-box;
 }
 
-    .resume-container h1 {
-        font-weight: 700;
-        font-size: 2.25rem;
-        line-height: 42px;
-    }
+.resume-container h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 42px;
+}
 
-    .resume-container h2 {
-        font-weight: 600;
-        font-size: 1.75rem;
-        line-height: 30px;
-    }
+.resume-container h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 30px;
+}
 
 .section-heading {
     align-content: center;
@@ -173,11 +173,11 @@ fieldset {
     margin: 0 auto;
 }
 
-    .heading-contact-info > span:first-child {
-        margin-right: auto;
-        white-space: nowrap;
-        padding-right: 10px;
-    }
+.heading-contact-info > span:first-child {
+    margin-right: auto;
+    white-space: nowrap;
+    padding-right: 10px;
+}
 
 .section-heading > hr {
     height: 4px;
@@ -211,9 +211,9 @@ li > span:first-child {
     justify-content: center;
 }
 
-    .basic-section:last-child > a {
-        margin-top: 0px;
-    }
+.basic-section:last-child > a {
+    margin-top: 0px;
+}
 /*----------------*/
 .theme-toggle-container {
     display: flex;
@@ -240,10 +240,10 @@ li > span:first-child {
     padding: 0 20px;
 }
 
-    .theme-toggle.dark {
-        background: #23262b;
-        box-shadow: 0 4px 16px #181a1d, 0 -4px 16px #2c2f34;
-    }
+.theme-toggle.dark {
+    background: #23262b;
+    box-shadow: 0 4px 16px #181a1d, 0 -4px 16px #2c2f34;
+}
 
 .toggle-label {
     font-size: 1.6rem;
@@ -322,6 +322,14 @@ li > span:first-child {
     .toggle-label {
         font-size: 1rem;
     }
+
+    .heading-contact-info {
+        width: 95%;
+    }
+
+    body {
+        min-width: 422px;
+    }
 }
 /* -----------------------------------------  */
 hr {
@@ -395,7 +403,7 @@ body.dark-theme footer {
     background-color: #0c271a;
     color: #E0F2FE;
     border-color: #2a895b;
-    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.18);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,0.18);
 }
 
 header a {
@@ -405,17 +413,14 @@ header a {
     padding: 5px 20px;
 }
 
-    header a:hover {
-        color: #161616;
-        text-decoration: underline;
-    }
+header a:hover {
+    color: #161616;
+    text-decoration: underline;
+}
 
 body.dark-theme header a,
 body.dark-theme footer a {
     color: #709900;
-    text-decoration: none;
-    font-weight: 600;
-    margin: 0 1rem;
     transition: color 0.2s;
 }
 
@@ -446,11 +451,11 @@ footer > div {
     gap: 30px;
 }
 
-    footer > div > span:first-child {
-        margin-right: auto;
-        white-space: nowrap;
-        padding-right: 10px;
-    }
+footer > div > span:first-child {
+    margin-right: auto;
+    white-space: nowrap;
+    padding-right: 10px;
+}
 
 .footer-icon {
     color: #14532d;
@@ -459,7 +464,7 @@ footer > div {
     vertical-align: middle;
 }
 
-    .footer-icon:hover,
-    .footer-icon:focus {
-        color: #4ade80;
-    }
+.footer-icon:hover,
+.footer-icon:focus {
+    color: #4ade80;
+}

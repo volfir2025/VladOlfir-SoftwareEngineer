@@ -1,12 +1,15 @@
+import React from "react"
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import type { JSX } from 'react'
 
-export default function Footer(): JSX.Element {
+function Footer(): JSX.Element {
     const socialLinks = [
         { Icon: FaGithub, label: 'GitHub', href: 'https://github.com/volfir2025' },
         { Icon: FaLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/vlad-olfir' },
         { Icon: FaEnvelope, label: 'Email', href: 'mailto:"Vlad%20Olfir"<vlad.olfir@gmail.com>' },
     ];
+
+    console.log("Footer rendered");
 
     return (
         <footer>
@@ -32,3 +35,6 @@ export default function Footer(): JSX.Element {
         </footer>
     );
 }
+
+//This will make sure to render this component when nessessary:
+export default React.memo(Footer)

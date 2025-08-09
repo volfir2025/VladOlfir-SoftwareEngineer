@@ -13,7 +13,7 @@ export default [
         name: "professionalProfile",
         description: "Professional Profile",
         content: [
-            "An accomplished web developer with a robust background in talent management, finance, and e-commerce.",
+            "An accomplished web developer with a robust background in talent management and finance.",
             "Extensive knowledge of SDLC from project conception through requirements gathering, design, development, deployment, user training, and maintenance.",
             "Strong knowledge of Full-Stack Software Development.",
             "As AVP of Application Development, led multi-tier web-based systems in Microsoft .NET, using C#, ASP.NET, AJAX, ODP.NET, Hyperion Essbase 11, MS SQL Server, and Oracle.",
@@ -70,7 +70,7 @@ export default [
                 skillName: "IDE",
                 skills: [
                     "Visual Studio 2003 - 2022 (with GitHub Copilot & IntelliCode)",
-                    "Visual InterDev 6.0"
+                    "Figma"
                 ]
             },
             {
@@ -124,21 +124,21 @@ export default [
                 "info": "Cegid Corp is a French-based global enterprise software provider specializing in retail, hospitality, talent management and financial services solutions, with Canadian headquarters in Montreal, Quebec. I worked remotely from New York City, collaborating seamlessly with the team in Montreal.",
                 "description": [
                     "Managed and enhanced career and recruiter sites to facilitate job applications, streamline job creation and approval, candidate screening, job posting, hiring, and reporting.",
-                    "Designed and implemented compliance with Quebec's Law 25.",
+                    "Built.Net career sites with multi - language support: English, French, Spanish.",
+                    "[PL]Ensured compliance with Quebec's Law 25 and Canadian privacy legislation.",
+                    "[L2]Designed and implemented the anonymization of stored data and the right to erase data in databases.",
+                    "[PL]Secure Password.",
+                    "[L2]Implemented security features to make password rules configurable for each client's career and recruiter sites.",
+                    "[PL]Data Extraction.",
+                    "[L2]Delivered a single set of stored procedures to extract candidate and job - related data in English or French.",
                     "Worked in an agile environment with Scrum and Kanban.",
-                    "Implemented various career site reskins.",
-                    "Built .Net career sites with multi-language support: English, French, Spanish.",
-                    "Implemented security features to make password rules configurable for each client.",
-                    "Created executable to extract data stored in SQL Server database to csv files.",
-                    "Created stored procedures for data extraction.",
-                    "Created a web service to communicate with Microsoft Exchange server.",
-                    "Created an integration with Cisco WebEx for an instructor/student video call.",
-                    "Created an integration with Graylog to log information from websites.",
+                    "Implemented various career site reskins - changing the look and feel of career sites to use the same stylesheets as a client site; added Bootstrap to make a site responsive.",
+                    "Created a web service to communicate with Microsoft Exchange server to check whether the trainers allowed in the training period are available or not(OAuth 2.0, Azure AD v2.0).Created an integration with Cisco WebEx for an instructor/ student video call.",
+                    "Created an integration with Graylog to log information from websites for data mining and troubleshooting.",
                     "Maintained integration with Kenexa for career site exams.",
                     "Upgraded Career Sites from jQuery version 1.7.1 to version 3.7.1.",
-                    "Maintained SQL Server Reporting Services (SSRS) reports.",
-                    "Created VB scripts for automated email generation.",
-                    "Coached and mentored new hires."
+                    "Maintained SQL Server Reporting Services(SSRS) reports that can be accessed from web pages.",
+                    "Coached and mentored new hires."     
                 ]
             },
             {
@@ -147,31 +147,27 @@ export default [
                 "dates": "October 2005 - March 2012",
                 "title": "Programmer Analyst / AVP in Technology",
                 "description": [
-                    "Developed an \"Email Subscription\" feature for custom reports on the internal website, which allows users to create custom reports.",
-                    "Developed the.NET front - end for the Actuals Approval module with twelve steps.",
-                    "Created ad hoc reports using the Essbase Add- In.",
-                    "Designed and developed the User Permissions module, which is a seven - step process for setting up or maintaining all possible combinations of business and region for a particular user.",
+                    "Designed and implemented the 'Email Subscription' portion of the project, which allows users to create custom reports using C#, ASP.NET on the .NET 3.5 platform, XML, jQuery, jQuery UI widgets, AJAX, JavaScript, CSS, and SQL.",
+                    "[L2]Participated in DB design.",
+                    "[L2]Worked with clients to summarize design specifications and create mockup screens.",
+                    "[L2]Developed a four-step process for choosing email recipients, scheduling, and reports(email body and attachments).",
+                    "Created the .NET front-end for the 'Actuals Approval' module, which has twelve steps, using C#, ASP.NET on the.NET 3.5 platform, AJAX, jQuery, XML, JavaScript, CSS, and SQL.",
+                    "[L2]Collected clients' specifications and created a prototype for each step.",
+                    "[L2]Used master / content pages and.NET class libraries.",
+                    "[L2]Created multiple input screens using OWC and the jQuery tabs plug-in.",
+                    "Designed and developed the application's 'User Permissions' module, which is a seven-step process for setting up or maintaining all possible combinations of business and region for a particular user.",
+                    "[L2]Created a set of classic ASP pages, using DHTML, XMLHTTP, CSS, JavaScript, and SQL.",
+                    "[L2]Used JavaScript arrays of objects to store data before submitting it to a database in the final step.",
+                    "[L2]Seamlessly embedded existing pages with the region and organization hierarchy for a better user experience.",
+                    "[L2]Created the module's admin page with search and filter functionality.",
+                    "Built ad hoc reports using the Essbase Spreadsheet Add-In.",
                     "Designed and developed financial reports using Clarity's CPM OLAP and CPM Relational template builders.",
-                    "Designed and built custom Clarity forms using the CPM DLL and the MS OWC spreadsheet component.",
+                    "Designed and built custom Clarity forms using the CPM DLL and MS OWC spreadsheet component.",
                     "Worked with Oracle Essbase 11 to retrieve data for reports and ad hoc analyses.",
-                    "Developed input templates and reports using the Clarity template builder.",
-                    "Managed and coordinated production releases and technical documentation."
-                ]
-            },
-            {
-                "company": "XpertUniverse, Inc.",
-                "location": "New York, NY",
-                "dates": "December 2001 - September 2005",
-                "title": "Senior Programmer",
-                "description": [
-                    "Developed all of the application's APIs - functions written in Exigen's native Integrator Script programming language using XML trees as input/output parameters, the only means by which the application communicated with databases.",
-                    "Reverse engineered the APIs to expand the functionality beyond the vendor's scope in some instances.",
-                    "Created a project for internal company use for organization creation using MS Visual InterDev 6.0, ASP, VB Script, HTML, JavaScript, ADO, and DHTML.",
-                    "Designed and implemented a permissions model for the XpertSHARE application.This model allowed each client organization to have a customizable list of user profile fields, specify its own terminology, and regulate each user type's actions.This model used only one set of XSL pages.",
-                    "Designed and implemented the provisioning and maintenance infrastructure for configurable criteria styles, allowing organizations to choose different ways to display sets of up to four drop - down expertise criteria menus(hierarchical or independent) using only one set of XSL pages.",
-                    "Developed Excel macros for SQL generation from the profile form, including data validation and navigation through all collected records.",
-                    "Created various VB.NET projects and application support tools.",
-                    "Maintained MS SQL Server databases, including backup, restoration, optimization, revision control, migration from one environment to another, triggers, indexes, and stored procedures using TSQL."
+                    "Developed input templates and reports using the Clarity Template Builder.",
+                    "Managed and coordinated production releases and technical documentation.",
+                    "Designed and maintained CAPS / SOX controls.",
+                    "Led and trained team members on CPM."
                 ]
             }
         ]
@@ -180,8 +176,7 @@ export default [
         name: "education",
         description: "Education",
         content: {
-            "institution": "Professional College of Industrial Automation and Information Technologies of Odessa National Technological University",
-            "location": "Odessa, Ukraine",
+            "institution": "Professional College of Industrial Automation and Information Technologies of National Technological University",
             "degree": "Degree in Installation and Adjustment of Monitoring and Digital Automatic Equipment"
         }
     } 

@@ -53,7 +53,7 @@ export type ProfessionalExperienceType = {
 
 export type EducationContentType = {
     institution: string
-    location: string
+    location?: string
     degree: string
 }
 
@@ -158,6 +158,7 @@ export default function Resume() {
         }
     }
 
+    console.log("   Resume rendered");
     return (
         <form name="resumeForm" method="post" action="/resume">
             <div className="resume-container">
@@ -209,7 +210,7 @@ export default function Resume() {
                     <div className="basic-section">
                         <h2>{education.description}</h2>
                         <div>
-                            <span>{educationContentTyped.institution}, </span>
+                            <span>{educationContentTyped.institution}</span>
                             <span>{educationContentTyped.location}</span>
                         </div>
                         <p>{educationContentTyped.degree}</p>

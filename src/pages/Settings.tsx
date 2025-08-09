@@ -17,7 +17,8 @@ export default function Settings() {
     }
 
     const { darkMode, setDarkMode }: ThemeContextType = theme;
- 
+    console.log("   Settings rendered");
+
     return (       
         <div className="theme-toggle-container">
             {darkMode && <div

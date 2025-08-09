@@ -1,12 +1,14 @@
+import React from "react"
 import { NavLink } from "react-router-dom"
 import type { JSX } from 'react'
 
-export default function Header(): JSX.Element {
+function Header(): JSX.Element {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "underline"
     }
 
+    console.log("Header rendered");
     return (
         <header>      
             <nav>           
@@ -33,3 +35,6 @@ export default function Header(): JSX.Element {
         </header>
     )
 }
+
+//This will make sure to render this component when nessessary:
+export default React.memo(Header)

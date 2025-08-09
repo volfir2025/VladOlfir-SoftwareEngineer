@@ -1,3 +1,4 @@
+import React from "react"
 import type { JSX } from 'react'
 import type { JobContentType } from "../pages/Resume";
 
@@ -5,14 +6,25 @@ type JobPropsType = {
     content: JobContentType
     showhr?: boolean
 }
-export default function Job({ content, showhr }: JobPropsType): JSX.Element {
+
+function Job({ content, showhr }: JobPropsType): JSX.Element {
     const description =
         content.description ?
             <ul>
-                {content.description.map((item, index) => {     
-                    return  <li key={index}>{item}</li>        
+                {content.description.map((item, index) => {
+                    if (item.substring(0, 4) === "[PL]") {                  
+                        return <li key={index}><i>Project Lead:</i> {item.substring(4)}</li>;
+                    }
+                    if (item.substring(0, 4) === "[L2]") { //Level 2:                 
+                        return <ul key={index}><li>{item.substring(4)}</li></ul>;
+                    }                 
+                    else { 
+                        return  <li key={index}>{item}</li>
+                        }
                 })}
             </ul> : null;
+
+    console.log(`       Job ${content.company} rendered`);
 
     return (
         <section>
@@ -30,3 +42,6 @@ export default function Job({ content, showhr }: JobPropsType): JSX.Element {
         </section>
     )
 }
+
+//This will make sure to render this component when nessessary:
+export default React.memo(Job);
