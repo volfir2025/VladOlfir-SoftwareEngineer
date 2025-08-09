@@ -14,7 +14,7 @@ export default function Settings() {
 
     if (!theme) {
         return null;
-    }
+    } 
 
     const { darkMode, setDarkMode }: ThemeContextType = theme;
     console.log("   Settings rendered");

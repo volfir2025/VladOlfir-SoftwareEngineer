@@ -9,7 +9,7 @@ function Footer(): JSX.Element {
         { Icon: FaEnvelope, label: 'Email', href: 'mailto:"Vlad%20Olfir"<vlad.olfir@gmail.com>' },
     ];
 
-    console.log("Footer rendered");
+    console.log("Footer rendered"); 
 
     return (
         <footer>

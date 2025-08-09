@@ -19,7 +19,7 @@ export default [
             "As AVP of Application Development, led multi-tier web-based systems in Microsoft .NET, using C#, ASP.NET, AJAX, ODP.NET, Hyperion Essbase 11, MS SQL Server, and Oracle.",
             "Self-starter, innovative, flexible, resourceful, and organized, with a commitment to continuous learning and working independently or collaboratively.",
             "Experience working with cross-functional and offshore teams.",
-            "Experience in coaching, mentoring and project management."
+            "Experience in coaching, mentoring and project management."  
         ]
     },
     {       

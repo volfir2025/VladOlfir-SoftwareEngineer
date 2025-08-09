@@ -11,7 +11,7 @@ type BasicSectionProps = {
 function BasicSection({ name, description, content }: BasicSectionProps): JSX.Element {
     const sectionContent =
         content ?
-            <ul>
+            <ul> 
                 {
                     content.map((item: SkillsContentType | string, index: number) => {
                         if (typeof item === "object" && "skillName" in item && Array.isArray(item.skills)) {

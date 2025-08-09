@@ -6,7 +6,7 @@ function Header(): JSX.Element {
     const activeStyles = {
         fontWeight: "bold",
         textDecoration: "underline"
-    }
+    } 
 
     console.log("Header rendered");
     return (

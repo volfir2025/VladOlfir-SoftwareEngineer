@@ -157,7 +157,7 @@ export default function Resume() {
             }
         }
     }
-
+     
     console.log("   Resume rendered");
     return (
         <form name="resumeForm" method="post" action="/resume">

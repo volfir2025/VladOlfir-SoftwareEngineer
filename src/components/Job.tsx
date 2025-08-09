@@ -4,7 +4,7 @@ import type { JobContentType } from "../pages/Resume";
 
 type JobPropsType = {
     content: JobContentType
-    showhr?: boolean
+    showhr?: boolean 
 }
 
 function Job({ content, showhr }: JobPropsType): JSX.Element {

@@ -4,7 +4,7 @@ import img_gears from "../assets/images/gears.png"
 
 export default function Home() {
 
-    console.log("   Home rendered");
+    console.log("   Home rendered"); 
     return (
         <div className="home-flex-container">
             <div className="home-image-wrapper">
