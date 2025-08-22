@@ -165,7 +165,7 @@ export default [
                     "Designed and developed the application's 'User Permissions' module, which is a seven-step process for setting up or maintaining all possible combinations of business and region for a particular user.",
                     "[L2]Created a set of classic ASP pages, using DHTML, XMLHTTP, CSS, JavaScript, and SQL.",
                     "[L2]Used JavaScript arrays of objects to store data before submitting it to a database in the final step.",
-                    "[L2]Seamlessly embedded existing pages with the region and organization hierarchy for a better user experience.",
+                    "[L2]Seamlessly embedded existing pages within the regional and organizational hierarchy to improve the user experience.",
                     "[L2]Created the module's admin page with search and filter functionality.",
                     "Built ad hoc reports using the Essbase Spreadsheet Add-In.",
                     "Designed and developed financial reports using Clarity's CPM OLAP and CPM Relational template builders.",
