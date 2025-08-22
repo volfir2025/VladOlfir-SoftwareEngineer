@@ -13,10 +13,10 @@ export default [
         name: "professionalProfile",
         description: "Professional Profile",
         content: [
-            "An accomplished web developer with a robust background in talent management and finance.",
+            "An accomplished web developer with a robust background in talent management, finance and e-commerce.",
             "Extensive knowledge of SDLC from project conception through requirements gathering, design, development, deployment, user training, and maintenance.",
             "Strong knowledge of Full-Stack Software Development.",
-            "As AVP of Application Development, led multi-tier web-based systems in Microsoft .NET, using C#, ASP.NET, AJAX, ODP.NET, Hyperion Essbase 11, MS SQL Server, and Oracle.",
+            "As AVP of Application Development, led multi-tier web-based systems in Microsoft .NET, using C#, ASP.NET, AJAX, ODP.NET, MS SQL Server, and Oracle.",
             "Self-starter, innovative, flexible, resourceful, and organized, with a commitment to continuous learning and working independently or collaboratively.",
             "Experience working with cross-functional and offshore teams.",
             "Experience in coaching, mentoring and project management."  
@@ -111,6 +111,13 @@ export default [
                     "Prompt Engineering with Generative AI"
                 ]
             },
+            {
+                skillName: "Issue Tracking",
+                skills: [
+                    "Jira",
+                    "Azure DevOps"
+                ]
+            }
         ]
     },
     {
